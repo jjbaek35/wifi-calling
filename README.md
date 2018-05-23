@@ -1,4 +1,4 @@
-# wifi-calling
+# wifi-calling May 23 2018
 WiFi-Calling has been evaluated successfully as a solution to extend coverage and improve capacity in low signal area by moving traffic between LTE and WiFi connections. To provide secure connections with integrity and confidentiality, a device uses the IETF protocols IKEv2 and IPsec. We carefully analyzed  these protocol specifications and discovered several vulnerabilities. By demonstrating low-cost and practical attacks using a rogue access point in real WiFi networks, we confirmed that the user device leaks the International Mobile Subscriber Identity (IMSI) and  it can be exploited for tracing user locations. Also we learned these protocol can be  vulnerable to several denial of service attacks.
 
 We present practical and potential countermeasures to protect user privacy and services against these attacks. We also discuss trade-off considerations that explain why these vulnerabilities exist. Additionally, we present subsequent changes to be introduced in future specifications to address these trade-offs.
